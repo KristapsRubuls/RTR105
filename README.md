@@ -4,7 +4,7 @@
 **Ctrl. + Shift + T** *(jauna termināla lappa)*  
 **Ctrl. + L** *(dzēst termināla parādīto pašreizējo informāciju)*  
 **Ctrl. + Alt + F1** *(pārvieto uz teletype writer - tty)*  
-**Ctrl. + Alt + F7** *(pāriet atpakaļ uz terminālu)*
+**Ctrl. + Alt + F7** *(pāriet atpakaļ uz terminālu)*  
 **history** *(parāda lietoto komandu sarakstu)*  
 **uname** *(informācija par OS)*  
 **echo $0** *(OS valodas dialekts)*  
