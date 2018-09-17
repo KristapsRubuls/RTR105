@@ -17,7 +17,7 @@
 **ls** *(parāda neapslēptās mapes)*  
 ls -la, ls -l  
 **pwd** *(vieta, kur atrodas lietotājs)*  
-**man** *(pievieno pirms komandas, lai apskatītu tās pamācību)*
+**man** *(pievieno pirms komandas, lai apskatītu tās pamācību)*  
 **cd** *(pārvieto uz mapi vai relatīvo adresi)*  
 **more**, **cat**, **less** *(attēlo teksta faila saturu)*  
 more fails1.txt  
