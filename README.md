@@ -4,12 +4,35 @@
 **Ctrl. + Shift + T** *(jauna termināla lappa)*  
 **Ctrl. + L** *(dzēst termināla parādīto pašreizējo informāciju)*  
 **Ctrl. + Alt + F1** *(pārvieto uz teletype writer - tty)*  
-**Ctrl. + Alt + F7** *(pāriet atpakaļ uz terminālu)*  
+**Ctrl. + Alt + F7** *(pāriet atpakaļ uz terminālu)*
+. (tekošā direktorija)  
+.. (pārvbieto uz iepriekšejo direktoriju)  
+~ (relatīvā adrese)  
+/ (sakne apgabala apzīmējums)  
 **history** *(parāda lietoto komandu sarakstu)*  
 **uname** *(informācija par OS)*  
 **echo $0** *(OS valodas dialekts)*  
 **whoami** *(kas Tu esi interfeisā)*  
 **who** *(kas Tev ir pretī)*  
 **ls** *(parāda neapslēptās mapes)*  
+ls -la, ls -l  
 **pwd** *(vieta, kur atrodas lietotājs)*  
-**man** *(pievieno pirms komandas, lai apskatītu tās pamācību)*    
+**man** *(pievieno pirms komandas, lai apskatītu tās pamācību)*
+**cd** *(pārvieto uz mapi vai relatīvo adresi)*  
+**more**, **cat**, **less** *(attēlo teksta faila saturu)*  
+more fails1.txt  
+**mkdir** *(izveidot jaunu direksciju jeb mapi)*  
+**rmdir** *(izdzēst konkrēto direkciju jeb mapi)*  
+**rm** *(dzēst)*  
+rm fails*.txt  
+rm -r  
+**mv** *(pārvietot failu uz)*  
+mv fails1.txt .../fails102.txt  
+**cp** *(kopēt failu)*  
+**nano** *(teksta redaktors failam)*  
+nano fails1.txt  
+**>** *(izveidot jaunu mapi vai failu)*  
+**chmod** *(pārmainīt faila vai mapes tiesības)*  
+chmod 540 fails1.txt  
+**echo ""** *(attēlot tekstu uz termināla vai kādā failā)*  
+echo "teksts" fails1.txt  
