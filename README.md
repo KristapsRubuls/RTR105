@@ -27,12 +27,21 @@ more fails1.txt
 rm fails*.txt  
 rm -r  
 **mv** *(pārvietot failu uz)*  
+mv mans_skripts.sh RTR105/
 mv fails1.txt .../fails102.txt  
 **cp** *(kopēt failu)*  
 **nano** *(teksta redaktors failam)*  
+nano mans_skripts.sh
 nano fails1.txt  
 **>** *(izveidot jaunu mapi vai failu)*  
 **chmod** *(pārmainīt faila vai mapes tiesības)*  
+chmod 764 mans_skripts.sh
 chmod 540 fails1.txt  
 **echo ""** *(attēlot tekstu uz termināla vai kādā failā)*  
 echo "teksts" fails1.txt  
+echo $PATH
+PATH=$PATH:/home/user (pievieno adresi, kurā ievietot savus skriptus)
+PATH=$PATH:~
+#!/bin/bash (parāda interpretātoru, kurš tiks izmantots)
+git clone https://github.com/KristapsRubuls/RTR105
+

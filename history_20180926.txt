@@ -1,0 +1,24 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  history
+    5  cd RTR105
+    6  ls -l
+    7  nano README.md
+    8  ps aux
+    9  ps aux | grep nano
+   10  kill 3031
+   11  ps aux | grep nano
+   12  kill 3036
+   13  ps aux | grep nano
+   14  su sc
+   15  nano README.md
+   16  ps aux | grep nano
+   17  nano README.md
+   18  ls -l
+   19  nano git-upload
+   20  ls -l
+   21  chmod 764 git-upload
+   22  ls -l
+   23  history
+   24  history > history_20180926.txt
