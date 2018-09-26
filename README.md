@@ -39,9 +39,9 @@ chmod 764 mans_skripts.sh
 chmod 540 fails1.txt  
 **echo ""** *(attēlot tekstu uz termināla vai kādā failā)*  
 echo "teksts" fails1.txt  
-echo $PATH
-PATH=$PATH:/home/user (pievieno adresi, kurā ievietot savus skriptus)
-PATH=$PATH:~
-#!/bin/bash (parāda interpretātoru, kurš tiks izmantots)
+echo $PATH  
+PATH=$PATH:/home/user (pievieno adresi, kurā ievietot savus skriptus)  
+PATH=$PATH:~  
+#!/bin/bash (parāda interpretātoru, kurš tiks izmantots)  
 git clone https://github.com/KristapsRubuls/RTR105
 
