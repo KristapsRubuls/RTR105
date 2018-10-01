@@ -49,7 +49,8 @@ PATH=$PATH:~
 **python test_1.py**    
 **ipython**      
 **idle &**   
-**idle test_1.py &**
-
+**idle test_1.py &**  
+**vars()**    
+**print()**    
 
 
