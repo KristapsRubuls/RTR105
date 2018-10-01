@@ -44,10 +44,10 @@ PATH=$PATH:/home/user (pievieno adresi, kurā ievietot savus skriptus)
 PATH=$PATH:~  
 **#!/bin/bash** (parāda interpretātoru, kurš tiks izmantots)  
 **git clone https://github.com/KristapsRubuls/RTR105**  
-**git-upload ...**
-**python**
-**python test_1.py**  
-**ipython**    
+**git-upload ...**  
+**python**  
+**python test_1.py**    
+**ipython**      
 **idle &**   
 **idle test_1.py &**    
 
