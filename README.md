@@ -47,8 +47,8 @@ PATH=$PATH:~
 **git-upload ...**
 **python**
 **python test_1.py**  
-**ipython**  
-**idle &** 
+**ipython**    
+**idle &**   
 **idle test_1.py &**    
 
 
