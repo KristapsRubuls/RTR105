@@ -52,5 +52,5 @@ PATH=$PATH:~
 **idle test_1.py &**  
 **vars()**    
 **print()**    
-
+**history > history_2018.txt**  
 
