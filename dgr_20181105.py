@@ -1,41 +1,42 @@
 Python 3.6.5 (default, Apr  1 2018, 05:46:30) 
 [GCC 7.3.0] on linux
 Type "copyright", "credits" or "license()" for more information.
->>> name = input("Enter: ")
-Enter: Chuck
->>> name
-'Chuck'
->>> apple = input("Enter: ")
-Enter: 10
->>> x = int(apple) - 9
+>>> str1 = "hello"
+>>> str2 = "Bob"
+>>> bob = str1 + str2
+>>> print(bob)
+helloBob
+>>> str3 = "123"
+>>> x = int(str3) + 1
 >>> print(x)
-1
+124
+>>> name = input()
+Chuck
+>>> print(name)
+Chuck
+>>> apple = input()
+100
+>>> x = int(apple) - 10
+>>> print(x)
+90
 >>> fruit = "banana"
->>> letter = fruit[2]
+>>> letter = fruit[1]
 >>> print(letter)
-n
+a
 >>> x = 3
 >>> w = fruit[x - 1]
 >>> print(w)
 n
->>> w = fruit[x - 2]
->>> print(w)
-a
 >>> fruit = "banana"
 >>> print(len(fruit))
-6
->>> fruit = "banana"
->>> x = len(fruit)
->>> print(x)
 6
 >>> fruit = "banana"
 >>> index = 0
 >>> while index < len(fruit):
 	letter = fruit[index]
 	print(index, letter)
-	index = index +1
+	index = index + 1
 
-	
 0 b
 1 a
 2 n
@@ -53,17 +54,31 @@ n
 a
 n
 a
+>>> index = 0
+>>> while index < len(fruit):
+	letter = fruit[index]
+	print(index)
+	index = index + 1
+
+	
+0
+1
+2
+3
+4
+5
 >>> while index < len(fruit):
 	letter = fruit[index]
 	print(letter)
-	index = index +1
+	index = index + 1
 
 	
+>>> 
 >>> index = 0
 >>> while index < len(fruit):
 	letter = fruit[index]
 	print(letter)
-	index = index +1
+	index = index + 1
 
 	
 b
@@ -75,52 +90,22 @@ a
 >>> word = "banana"
 >>> count = 0
 >>> for letter in word:
-	if letter == "a":
-		count = count + 1
-print(count)
+	if letter == "a"
+	
 SyntaxError: invalid syntax
->>> 
 >>> for letter in word:
 	if letter == "a":
 		count = count + 1
-	print(count)
 
-	
-0
-1
-1
-2
-2
+>>> print(count)
 3
->>> for letter in word:
-	if letter == "a":
-		count = count + 1
-
-	
->>> 
->>> count
-6
->>> for letter in "banana":
-	print(letter)
-
-	
-b
-a
-n
-a
-n
-a
 >>> s = "Monty Python"
->>> print(s[6:10])
-Pyth
->>> print(s[6:11])
-Pytho
->>> print(s[6:12])
+>>> print(s[0:4])
+Mont
+>>> print(s[6:7])
+P
+>>> print(s[6:20])
 Python
->>> print(s[4:12])
-y Python
->>> print(s[4:20])
-y Python
 >>> print(s[:2])
 Mo
 >>> print(s[8:])
@@ -142,44 +127,42 @@ False
 >>> "nan" in fruit
 True
 >>> if "a" in fruit:
-	print("Found it!")
+	print("Done!")
 
 	
-Found it!
->>> if word == "banana"
-SyntaxError: invalid syntax
+Done!
 >>> if word == "banana":
-	print("All right, bananas")
+	print("Bananas")
 
 	
-All right, bananas
+Bananas
 >>> if word < "banana":
-	print("Your word," + word + ", comes before banana")
-elif:
-	
-SyntaxError: invalid syntax
->>> if word < "banana":
-	print("Your word," + word + ", comes before banana")
+	print("Your word, " + word + ", comes before banana.")
 	elif word > "banana":
 		
 SyntaxError: invalid syntax
 >>> if word < "banana":
-	print("Your word," + word + ", comes before banana")
+	print("Your word, " + word + ", comes before banana.")
+	elif word > "banana":
+		
+SyntaxError: invalid syntax
+>>> if word < "banana":
+	print("Your word, " + word + ", comes before banana.")
 elif word > "banana":
-	print("Your word," + word + ", comes after banana")
+	print("Your word, " + word + ", comes after banana.")
 else:
-	print("All right, bananas")
+	print("Bananas")
 
 	
-All right, bananas
+Bananas
 >>> greet = "Hello Bob"
 >>> zap = greet.lower()
 >>> print(zap)
 hello bob
 >>> print(greet)
 Hello Bob
->>> print("Hi, There".lower())
-hi, there
+>>> print("Hi There".lower())
+hi there
 >>> fruit = "banana"
 >>> pos = fruit.find("na")
 >>> print(pos)
@@ -198,12 +181,30 @@ hello bob
 >>> nstr = greet.replace("Bob", "Jane")
 >>> print(nstr)
 Hello Jane
->>> nstr = greet.replace("o", "X)
-			 
-SyntaxError: EOL while scanning string literal
->>> nstr = greet.replace("o", "X")
-			 
+>>> nstr= greet.replace("o", "X")
 >>> print(nstr)
-			 
 HellX BXb
+>>> greet = " Hello Bob "
+>>> greet.lstrip()
+'Hello Bob '
+>>> greet.rstrip()
+' Hello Bob'
+>>> greet.strip()
+'Hello Bob'
+>>> line = "Pls have a n1 day"
+>>> line.startswith("Pls")
+True
+>>> line.startswith("p")
+False
+>>> data = "asdadfaffafafaf@erere.rtu.lv"
+>>> atpos = data.find("@")
+>>> print(atpos)
+15
+>>> data = "asdadfaffafafaf@erere.rtu.lv 2018"
+>>> sppos = data.find(" ", atpos)
+>>> print(sppos)
+28
+>>> host = data[atpos + 1 : sppos]
+>>> print(host)
+erere.rtu.lv
 >>> 
