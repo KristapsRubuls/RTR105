@@ -33,7 +33,7 @@ while ( fabs(b - a) > deltax ):
         a = x
 
 print("Sakne ir: ", x)
-y = sinh(sqrt(x/2))
+y = sin(x)
 print("Dotaas funkcijas veertiiba sajaa punktaa ir: ", y)
 print("nepieciešamo iterāciju skaits intervālu dalīšanai uz pusēm: k = ", k)
 
