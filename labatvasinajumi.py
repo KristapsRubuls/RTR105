@@ -53,6 +53,5 @@ legend. append("$sinh(sqrt(x))$ otrās kārtas atvasinājums, izmantojot massīv
 
 
 
-
 plt.legend(legend, loc = 3, fancybox = True, framealpha = 0.5, facecolor = "orange")
 plt.show()

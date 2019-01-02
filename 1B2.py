@@ -1,7 +1,7 @@
 import sys
 sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
 from math import *
-from numpy import *
+from numpy import*
 from matplotlib import pyplot as plt
 x = linspace(0, 4, 70)
 y1 = sin(x)
@@ -23,5 +23,11 @@ plt.plot(x, y4)
 plt.plot(x, y4, color = "#FF0000")
 plt.plot(x, y5)
 plt.plot(x, y5, color = "#FFFF00")
+
+line_up, = plt.plot([1,2,3], label='Line 2')
+line_down, = plt.plot([3,2,1], label='Line 1')
+plt.legend([line_up, line_down], ['Line Up', 'Line Down'])
+
+
 plt.show()
 

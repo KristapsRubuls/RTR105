@@ -25,19 +25,18 @@ plt.plot(x,y)
 x1 = random.uniform(a,b,N)
 y1 = random.uniform(a,c,N)
 
-#N1 = 0
+N1 = 0
 for i in range(N):
     if y1[i] < f(x1[i]):
         plt.plot(x1[i],y1[i],'go')
+        N1 = N1 + 1
     else:
         plt.plot(x1[i],y1[i],'ro')
 
-print(x)
-print(y)
-print(x1)
-print(y1)
-#S_zinaamais = (b-a) * (b-a)
-#S_nezinaamais = 1. * S_zinaamais * N1 / N
-#print(S_nezinaamais)
+
+S_zinaamais = (b-a) * (b-a)
+S_nezinaamais = 1. * S_zinaamais * N1 / N
+print(S_nezinaamais)
+
 
 plt.show()
